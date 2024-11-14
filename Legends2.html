@@ -1,0 +1,24 @@
+<html>
+
+<head>
+     <title>Curved Images 2.0</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene background="color:#4B2854">
+        <a-assests>
+            <img src="Legends !.jfif" id="floor">
+            <img src="Legends @.png" id="1">
+            <img src="456.jpg" id="2">
+            <img src="Legends $.jpg" id="3">
+            <img src="123.jpg" id="4">
+        </a-assests>
+        <a-image src="#floor" scale="10 10 10" rotation="-90,0,0"></a-image>
+        <a-curvedimage src="#1"  thetha-length="45" scale="5 5 5" rotation="0 70 0"></a-curvedimage>
+        <a-curvedimage src="#2"  thetha-length="-145" scale="6 6 6" rotation="0 0 0"></a-curvedimage>
+        <a-curvedimage src="#3"  thetha-length="-415" scale="7 7 7" rotation="0 100 0"></a-curvedimage>
+        <a-curvedimage src="#4"  thetha-length="-451" scale="8 8 8" rotation="0 165 0"></a-curvedimage>
+    </a-scene>
+</body>
+
+</html>
